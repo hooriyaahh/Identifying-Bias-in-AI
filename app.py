@@ -122,7 +122,6 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv("data/bias_dataset.csv")
     data = pd.read_csv("Data/bias_dataset.csv")
     return data
 
